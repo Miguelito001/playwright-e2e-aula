@@ -1,0 +1,12 @@
+{
+    "name": "demoblaze-playwright-e2e",
+    "version": "1.0.0",
+    "description": "E2E tests for DemoBlaze using Playwright",
+    "scripts": {
+      "test": "npx playwright test"
+    },
+    "devDependencies": {
+      "@playwright/test": "^1.23.0"
+    }
+  }
+  
