@@ -22,8 +22,10 @@ jobs:
     - name: Install dependencies
       run: npm install
 
-    - name: Set up Playwright
-      uses: actions/setup-playwright@v1
+    - name: Install Playwright and browsers
+      run: |
+        npx playwright install chromium
+        npx playwright install-deps
 
     - name: Run Playwright tests
       run: npx playwright test
