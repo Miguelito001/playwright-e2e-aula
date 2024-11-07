@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "description": "E2E tests for DemoBlaze using Playwright",
     "scripts": {
-      "test": "npx playwright test"
+      "test": "npx playwright test --output artifacts/media --workers 1"
     },
     "dependencies": {
       "@playwright/test": "^1.48.0"
